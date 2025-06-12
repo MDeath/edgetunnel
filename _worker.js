@@ -1612,7 +1612,6 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, fak
             ${clash}<br>
             ---------------------------------------------------------------<br>
             ################################################################<br>
-            ${cmad}
             `;
         return `<div style="font-size:13px;">${节点配置页}</div>`;
     } else {
@@ -2221,7 +2220,6 @@ async function KV(request, env, txt = 'ADD.txt') {
                     </div>
                     <br>
                     ################################################################<br>
-                    ${cmad}
                     ` : '<p>未绑定KV空间</p>'}
                 </div>
         
